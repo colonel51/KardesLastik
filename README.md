@@ -1,0 +1,1 @@
+## .\.venv\Scripts\Activate.ps1 sanal makine çalıştırmak için
