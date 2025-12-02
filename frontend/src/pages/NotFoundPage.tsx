@@ -19,10 +19,10 @@ const NotFoundPage = () => {
                 Aradığınız sayfa mevcut değil veya taşınmış olabilir.
               </Card.Text>
               <div className="d-flex gap-2 justify-content-center">
-                <Button as={Link} to="/" variant="primary">
+                <Button as={Link as any} to="/" variant="primary">
                   Ana Sayfaya Dön
                 </Button>
-                <Button as={Link} to="/iletisim" variant="outline-primary">
+                <Button as={Link as any} to="/iletisim" variant="outline-primary">
                   İletişim
                 </Button>
               </div>

@@ -9,7 +9,6 @@ import {
   Form,
   Spinner,
   Badge,
-  Table,
 } from 'react-bootstrap';
 import {
   getGalleryImages,

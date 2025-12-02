@@ -1,7 +1,6 @@
 /**
  * WhatsApp Floating Button Component
  */
-import { Button } from 'react-bootstrap';
 
 const WhatsAppButton = () => {
   const phoneNumber = '905414636726'; // +90 541 463 6726 (ülke kodu + numara, + ve boşluklar olmadan)
