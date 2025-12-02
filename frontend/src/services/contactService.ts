@@ -33,7 +33,7 @@ export interface CreateContactMessageData {
 export const createContactMessage = async (data: CreateContactMessageData): Promise<ContactMessage> => {
   // Public endpoint için token göndermeden istek yap
   const response = await axios.post<ContactMessage>(
-    `${import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api'}${API_ENDPOINTS.CONTACT}`,
+    `${import.meta.env.VITE_API_BASE_URL || '/api'}${API_ENDPOINTS.CONTACT}`,
     data
   );
   return response.data;

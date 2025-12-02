@@ -25,6 +25,6 @@ export const API_ENDPOINTS = {
   CONTACT_MARK_AS_READ: (id: number) => `/contact/${id}/mark_as_read/`,
   
   // Auth endpoints (Django admin)
-  ADMIN_LOGIN: 'http://127.0.0.1:8000/admin/login/',
+  ADMIN_LOGIN: '/admin/login/',
 };
 

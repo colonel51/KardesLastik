@@ -48,7 +48,7 @@ export const getGalleryImages = async (isActive?: boolean): Promise<GalleryImage
   
   // Public endpoint için token göndermeden istek yap
   const response = await axios.get<GalleryImageListResponse>(
-    `${import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api'}${API_ENDPOINTS.GALLERY}`,
+    `${import.meta.env.VITE_API_BASE_URL || '/api'}${API_ENDPOINTS.GALLERY}`,
     { params }
   );
   return response.data.results;
@@ -60,7 +60,7 @@ export const getGalleryImages = async (isActive?: boolean): Promise<GalleryImage
 export const getGalleryImage = async (id: number): Promise<GalleryImage> => {
   // Public endpoint için token göndermeden istek yap
   const response = await axios.get<GalleryImage>(
-    `${import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api'}${API_ENDPOINTS.GALLERY_ITEM(id)}`
+    `${import.meta.env.VITE_API_BASE_URL || '/api'}${API_ENDPOINTS.GALLERY_ITEM(id)}`
   );
   return response.data;
 };
