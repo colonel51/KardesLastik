@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /yonetim/
+Disallow: /admin/
+
+Sitemap: https://yourdomain.com/sitemap.xml
+

@@ -132,3 +132,73 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
+
+# Frontend build files
+frontend/dist/
+frontend/.vite/
+frontend/build/
+
+# Django static files (collected)
+static/
+staticfiles/
+
+# Media files (user uploaded)
+media/
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+*.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# Secret keys
+secrets.json
+*.pem
+*.key
+
+# Backup files
+*.bak
+*.backup
+*.sql
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+
+# Production
+*.pyc
+*.pyo
+*.pyd
+.Python
