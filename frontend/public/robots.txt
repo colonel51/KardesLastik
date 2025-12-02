@@ -3,5 +3,5 @@ Allow: /
 Disallow: /yonetim/
 Disallow: /admin/
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://kardesdemirlastik.com.tr/sitemap.xml
 
